@@ -1,0 +1,6 @@
+- for creating virtual environments: $ python -m venv venv
+- to activate it  source venv/Scripts/activate
+after activation it should show (venv)
+
+
+- all packages from requirements is automatically installed using : pip install -r requirements.txt
