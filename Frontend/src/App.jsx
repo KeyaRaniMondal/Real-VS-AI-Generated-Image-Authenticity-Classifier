@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div className="hero ">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
@@ -47,7 +47,7 @@ function App() {
             </li>
             <li>
               <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
+                <img className="button-icon bg-amber-500" src={reactLogo} alt="" />
                 Learn more
               </a>
             </li>
